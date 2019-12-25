@@ -30,3 +30,22 @@ html {
     font-size: 15px;
     letter-spacing: 1.5px;
 }
+.screen {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 150px;
+    width: 100%;
+    background: #93a8ac;
+}
+.screen p {
+    margin-right: 20px;
+    color: #424b54;
+}
+.screen h2 {
+    margin-right: 20px;
+    font-size: 50px;
+    color: #f6f7eb;
+}
