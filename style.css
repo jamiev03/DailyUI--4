@@ -49,3 +49,20 @@ html {
     font-size: 50px;
     color: #f6f7eb;
 }
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+li {
+    background: #e94f37;
+    color: #f6f7eb;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
