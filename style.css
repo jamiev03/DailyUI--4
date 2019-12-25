@@ -49,20 +49,27 @@ html {
     font-size: 50px;
     color: #f6f7eb;
 }
-ul {
+.buttons {
+    margin: 30px auto;
+}
+.btn {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px auto;
+    padding-left: 18px;
 }
 li {
     background: #e94f37;
     color: #f6f7eb;
-    height: 60px;
-    width: 60px;
+    height: 62px;
+    width: 62px;
     margin: 10px;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+}
+.off {
+    background: #93a8ac;
 }
