@@ -4,10 +4,29 @@ html {
     background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
+    -webkit-box-shadow: 6px 11px 26px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 11px 26px -10px rgba(0,0,0,0.75);
+    box-shadow: 6px 11px 26px -10px rgba(0,0,0,0.75);
     height: 740px;
     width: 360px;
     background: #424b54;
+    border-radius: 25px;
+    border-top: 1px solid transparent;
+    margin: 100px auto;   
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px;
+    font-size: 25px;
+    color: #f6f7eb;   
+}
+.top-bar p {
+    font-size: 15px;
+    letter-spacing: 1.5px;
 }
